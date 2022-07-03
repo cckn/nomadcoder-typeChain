@@ -1,4 +1,8 @@
-import { init, exit } from "myPackage"
+import { init, exit } from "./myPackage"
 
-init({ url: "" })
+init({
+	url: "url",
+	isDebug: true,
+})
+
 exit(1)
