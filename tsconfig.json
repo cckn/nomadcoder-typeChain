@@ -1,0 +1,9 @@
+{
+	"included": ["src"],
+	"compilerOptions": {
+		"outDir": "build",
+		"esModuleInterop": true,
+		"target": "es6",
+		"lib": ["dom", "ES6"]
+	}
+}
